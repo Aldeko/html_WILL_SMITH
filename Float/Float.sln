@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C557DE1-CEA0-44B8-A87F-25D60EB18209}"
+	ProjectSection(SolutionItems) = preProject
+		float.css = float.css
+		FloatExercise.html = FloatExercise.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {821E008E-CABC-45E6-8A07-C1023CB9E3E3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*poniendolo horizontal*/
+li {
+    display: inline;
+}
+    li a {
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+
+#menu {
+    float: right;
+   
+}
+ul {
+    background-color: maroon;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+#composition {
+    font: status-bar;
+    width: 20%;
+    float: left;
+    line-height: 2.1;
+}
+blockquote{
+    clear:both;
+    padding-top:100px;
+    text-align:center;
+}
+
