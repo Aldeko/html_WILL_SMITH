@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
 }
 
 /*poniendolo horizontal*/
@@ -18,6 +19,7 @@ li {
 
 #menu {
     float: right;
+    padding-right:30px;
    
 }
 ul {
@@ -25,16 +27,78 @@ ul {
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 10px;
+    float:right;
 }
 #composition {
     font: status-bar;
     width: 20%;
     float: left;
     line-height: 2.1;
+    padding-left:30px;
 }
-blockquote{
-    clear:both;
-    padding-top:100px;
-    text-align:center;
+blockquote {
+    clear: both;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+    padding-bottom:50px;
+}
+.container {
+    /*width: 260px;*/
+    /*height: 120px;*/
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    /* resize images */
+ .container img
+{
+    width: 100%;
+    /*height: 400px;*/
+}
+.salto {
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#services {
+    text-align: center;
+    background-color: maroon;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 50px;
+}
+.midTop {
+    text-align: center;
+    background-color: maroon;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 50px;
+}
+.mid2Img {
+    float: left;
 }
 
+.miniSeccion {
+    width: 33%;
+    float: left;
+}
+
+    .miniSeccion h1 {
+        margin-top: 0px;
+        margin-left: 10%; /*TODO:preguntar si poniendo % aqui hace el tanto por ciento de su seccion(en este caso 33), o lo hace sobre la página entera*/
+    }
+
+    .miniSeccion p {
+        margin-bottom: 70px;
+    }
+
+    .miniSeccion a {
+        display: block;
+    }
